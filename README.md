@@ -39,12 +39,23 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is the purpose of using _sessions_?
+  Cookies and Sessions are used to store information. Cookies are only stored on the client-side machine, while sessions get stored on the client as well as a server. A session creates a file in a temporary directory on the server where registered session variables and their values are stored.
+
+  The single most important job of a cookie is to keep a user logged in as they browse from page to page. A user's browsing history becomes part of a database which the website then uses to improve the customer experience. ... Cookies are an essential part of the Internet.
+   
 
 - [ ] What does bcrypt do to help us store passwords in a secure manner.
+     
+     In the online world, passwords play a critical role in keeping your data and other important information safe. For this reason, ensuring your passwords remain secure is critical.
+     Bcrpt is used for this purpose.The bcrypt function is the default password hash algorithm , so the password is no longer a plain text.
 
 - [ ] What does bcrypt do to slow down attackers?
+     
+      Bcrpt does salting a password before hasing it.Salting  adds a very long string of bytes to the password. So even though a hacker might gain access to  hashed passwords, they should not be able to guess the ‘salt’ string.
 
 - [ ] What are the three parts of the JSON Web Token?
+
+   Three parts of the JSON Web Token are header,payload and ,signature.
 
 ## Minimum Viable Product
 
